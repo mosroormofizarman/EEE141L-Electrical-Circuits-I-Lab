@@ -1,0 +1,85 @@
+
+**** 08/19/18 12:13:13 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab01"  [ D:\NSU\this\EEE 141L\Lab01\lab01-pspicefiles\schematic1\lab01.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Lab01.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB01
+V_V1         N01079 0 5Vdc
+R_R1         N01079 N01086  3.3k TC=0,0 
+R_R2         N01086 N01090  4.7k TC=0,0 
+R_R3         0 N01090  5.6k TC=0,0 
+
+**** RESUMING Lab01.cir ****
+.END
+
+**** 08/19/18 12:13:13 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab01"  [ D:\NSU\this\EEE 141L\Lab01\lab01-pspicefiles\schematic1\lab01.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N01079)    5.0000 (N01086)    3.7868 (N01090)    2.0588 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -3.676E-04
+
+    TOTAL POWER DISSIPATION   1.84E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/19/18 12:13:13 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab01"  [ D:\NSU\this\EEE 141L\Lab01\lab01-pspicefiles\schematic1\lab01.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+
